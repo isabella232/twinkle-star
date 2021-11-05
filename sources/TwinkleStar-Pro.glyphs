@@ -1,7 +1,9 @@
 {
 .appVersion = "1352";
 DisplayStrings = (
-"a/Placeholder a/space b/Placeholder b/space c/Placeholder c/space d/Placeholder d/space e/Placeholder e/space f/Placeholder f/space g/Placeholder g/space h/Placeholder h/space i/Placeholder i/space jjj/space k/Placeholder k/space l/Placeholder l/space m/Placeholder m/space n/Placeholder n/space o/Placeholder o/space p/Placeholder p/space q/Placeholder q/space r/Placeholder r/space s/Placeholder s/space t/Placeholder t/space u/Placeholder u/space v/Placeholder v/space w/Placeholder w/space x/Placeholder x/space y/Placeholder y/space z/Placeholder z\012nn/Placeholder no/Placeholder oo\012abcdefghijklmnopqrstuv\012rwxyz/space afgano\012fear/space fall/space kilo/space long/space ovoide/space want/space wind/space oxo/space zapato\012Twombli/space Tgmaiwan/space Taiwan/space Tomato/space Temperture/space Tiro/space Twardock/space Walking/space Wonder/space Wc/space Wd/space/space Wrcnder/space/space You/space Family/space Fear/space Furor/space Vocal/space Viajar/space Zusam/space Pearl/space Point/space Pain/space Ayuda/space \012Kilo/space Londres/space Leon/space Lio/space Month\012abcdefghijklmnopqrstuvwxyz"
+"a/Placeholder a/space b/Placeholder b/space c/Placeholder c/space d/Placeholder d/space e/Placeholder e/space f/Placeholder f/space g/Placeholder g/space h/Placeholder h/space i/Placeholder i/space jjj/space k/Placeholder k/space l/Placeholder l/space m/Placeholder m/space n/Placeholder n/space o/Placeholder o/space p/Placeholder p/space q/Placeholder q/space r/Placeholder r/space s/Placeholder s/space t/Placeholder t/space u/Placeholder u/space v/Placeholder v/space w/Placeholder w/space x/Placeholder x/space y/Placeholder y/space z/Placeholder z\012nn/Placeholder no/Placeholder oo\012abcdefghijklmnopqrstuv\012rwxyz/space afgano\012fear/space fall/space kilo/space long/space ovoide/space want/space wind/space oxo/space zapato\012Twombli/space Tgmaiwan/space Taiwan/space Tomato/space Temperture/space Tiro/space Twardock/space Walking/space Wonder/space Wc/space Wd/space/space Wrcnder/space/space You/space Family/space Fear/space Furor/space Vocal/space Viajar/space Zusam/space Pearl/space Point/space Pain/space Ayuda/space \012Kilo/space Londres/space Leon/space Lio/space Month\012abcdefghijklmnopqrstuvwxyz",
+abcdefghijklmnopqrstuvwxyz,
+"/f_f/f_f_i/f_f_l/fi/fl/f_f.ss01/f_f_i.ss01/f_f_l.ss01/fi.ss01/fl.ss01"
 );
 copyright = "Copyright 2003 The Twinkle Star Project Authors (https://github.com/googlefonts/twinkle-star)";
 customParameters = (
@@ -111,38 +113,42 @@ alignmentZones = (
 "{700, 15}",
 "{470, 15}",
 "{0, -10}",
-"{-350, 20}"
+"{-280, -10}"
 );
 ascender = 700;
 capHeight = 705;
 customParameters = (
 {
 name = typoAscender;
-value = 671;
+value = 800;
 },
 {
 name = typoDescender;
-value = -236;
+value = -300;
 },
 {
 name = typoLineGap;
 value = 68;
 },
 {
-name = winAscent;
-value = 904;
-},
-{
-name = winDescent;
-value = 312;
-},
-{
 name = hheaAscender;
-value = 671;
+value = 900;
 },
 {
 name = hheaDescender;
-value = -236;
+value = -300;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 300;
 },
 {
 name = strikeoutPosition;
@@ -161,7 +167,7 @@ name = underlineThickness;
 value = 9;
 }
 );
-descender = -350;
+descender = -280;
 guideLines = (
 {
 locked = 1;
@@ -342,13 +348,14 @@ unicode = 0020;
 },
 {
 glyphname = nbspace;
-lastChange = "2021-11-05 02:44:04 +0000";
+lastChange = "2021-11-05 03:15:13 +0000";
 layers = (
 {
 layerId = "2ADFC918-CAA7-4AF7-825A-5AAC412EF250";
-width = 293;
+width = 324;
 }
 );
+widthMetricsKey = space;
 note = nbspace;
 unicode = 00A0;
 },
@@ -51175,9 +51182,15 @@ width = 433;
 },
 {
 glyphname = f_f;
-lastChange = "2021-11-05 02:51:28 +0000";
+lastChange = "2021-11-05 03:16:02 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{272, 0}";
+}
+);
 background = {
 components = (
 {
@@ -51207,9 +51220,19 @@ rightMetricsKey = f;
 },
 {
 glyphname = f_f_i;
-lastChange = "2021-11-05 02:51:28 +0000";
+lastChange = "2021-11-05 03:16:05 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{264.667, 0}";
+},
+{
+name = caret_2;
+position = "{529.333, 0}";
+}
+);
 background = {
 components = (
 {
@@ -51247,9 +51270,19 @@ rightMetricsKey = i;
 },
 {
 glyphname = f_f_l;
-lastChange = "2021-11-05 02:51:28 +0000";
+lastChange = "2021-11-05 03:16:07 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{285.333, 0}";
+},
+{
+name = caret_2;
+position = "{570.667, 0}";
+}
+);
 background = {
 components = (
 {
@@ -51287,9 +51320,15 @@ rightMetricsKey = l;
 },
 {
 glyphname = fi;
-lastChange = "2021-11-05 02:44:05 +0000";
+lastChange = "2021-11-05 03:16:14 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{262.5, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -51615,9 +51654,15 @@ unicode = FB01;
 },
 {
 glyphname = fl;
-lastChange = "2021-11-05 02:44:05 +0000";
+lastChange = "2021-11-05 03:16:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{270, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -51963,9 +52008,15 @@ unicode = FB02;
 },
 {
 glyphname = f_f.ss01;
-lastChange = "2021-11-05 02:44:05 +0000";
+lastChange = "2021-11-05 03:16:18 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{261, 0}";
+}
+);
 background = {
 components = (
 {
@@ -51995,9 +52046,19 @@ rightMetricsKey = f;
 },
 {
 glyphname = f_f_i.ss01;
-lastChange = "2021-11-05 02:44:05 +0000";
+lastChange = "2021-11-05 03:16:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{251, 0}";
+},
+{
+name = caret_2;
+position = "{502, 0}";
+}
+);
 background = {
 components = (
 {
@@ -52035,9 +52096,19 @@ rightMetricsKey = i;
 },
 {
 glyphname = f_f_l.ss01;
-lastChange = "2021-11-05 02:44:05 +0000";
+lastChange = "2021-11-05 03:16:23 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{246.333, 0}";
+},
+{
+name = caret_2;
+position = "{492.667, 0}";
+}
+);
 background = {
 components = (
 {
@@ -52075,9 +52146,15 @@ rightMetricsKey = l;
 },
 {
 glyphname = fi.ss01;
-lastChange = "2021-11-05 02:44:05 +0000";
+lastChange = "2021-11-05 03:16:26 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{239, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -52326,9 +52403,15 @@ note = fi;
 },
 {
 glyphname = fl.ss01;
-lastChange = "2021-11-05 02:44:05 +0000";
+lastChange = "2021-11-05 03:16:29 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{239, 0}";
+}
+);
 background = {
 paths = (
 {
@@ -65575,6 +65658,17 @@ width = 275;
 );
 note = hyphen;
 unicode = 002D;
+},
+{
+glyphname = softhyphen;
+lastChange = "2021-11-05 03:15:47 +0000";
+layers = (
+{
+layerId = "2ADFC918-CAA7-4AF7-825A-5AAC412EF250";
+width = 0;
+}
+);
+unicode = 00AD;
 },
 {
 glyphname = endash;
