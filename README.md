@@ -1,8 +1,8 @@
-# Petemoss
+# Twinkle Star
 
-Petemoss is a semi-calligraphic brush script. It is inspired by the forms created using a Pentel™ color brush.
+Twinkle Star is a cute and fun juvenile script. It comes in two styles: A Script style with has a more feminine quality while the more legible casual forms are easier for children to read. 
 
-![Sample Image](Documentation/image1.png)
+![Sample Image](documentation/image1.png)
 
 ## Building the Fonts
 
