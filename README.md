@@ -1,6 +1,6 @@
 # Twinkle Star
 
-Twinkle Star is a cute and fun juvenile script. It comes in two styles: A Script style with has a more feminine quality while the more legible casual forms are easier for children to read. 
+Twinkle Star is a cute and fun juvenile script. It comes in two styles: A Script style with a more curvy quality and a casual style with more children writing resemblance. 
 
 ![Sample Image](documentation/image1.png)
 
