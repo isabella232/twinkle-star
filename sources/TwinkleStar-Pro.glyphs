@@ -11,7 +11,11 @@ A,
 "/onehalf.ss01",
 "l/periodcentered.loclCAT l",
 "L/periodcentered.loclCAT.case L",
-"Þ"
+"Þ",
+"AÁ/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Acaron Â/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave Ä/Adotbelow À/Ahookabove/Ainvertedbreve/Amacron/Aogonek Å/Aringacute Ã",
+"OÓ/Obreve/Ocaron Ô/Ocircumflexacute/Ocircumflexdotbelow/Ocircumflexgrave/Ocircumflexhookabove/Ocircumflextilde/Odblgrave Ö/Odieresismacron/Odotaccentmacron/Odotbelow Ò/Ohookabove/Ohorn/Ohornacute/Ohorndotbelow/Ohorngrave/Ohornhookabove/Ohorntilde/Ohungarumlaut/Oinvertedbreve/Omacron/Oogonek Ø/Oslashacute Õ",
+"eé/ebreve/ecaron ê/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde/edblgrave ë/edotaccent/edotbelow è/ehookabove/einvertedbreve/emacron/eogonek/etilde",
+"oó/obreve ô/ocircumflexacute/ocircumflexdotbelow/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/odblgrave ö/odieresismacron/odotaccentmacron/odotbelow ò/ohookabove/ohorn/ohornacute/ohorndotbelow/ohorngrave/ohornhookabove/ohorntilde/ohungarumlaut/oinvertedbreve/omacron/oogonek ø/oslashacute õ/otildemacron"
 );
 classes = (
 {
@@ -33692,7 +33696,7 @@ unicode = 0135;
 },
 {
 glyphname = k;
-lastChange = "2021-11-10 23:45:09 +0000";
+lastChange = "2021-11-11 14:14:02 +0000";
 layers = (
 {
 anchors = (
@@ -34155,7 +34159,7 @@ unicode = 0138;
 },
 {
 glyphname = l;
-lastChange = "2021-11-11 14:10:08 +0000";
+lastChange = "2021-11-11 14:13:58 +0000";
 layers = (
 {
 anchors = (
@@ -93840,6 +93844,7 @@ W = {
 h = 52;
 };
 a = {
+l = -30;
 m = 31;
 x = 63;
 };
@@ -93883,7 +93888,7 @@ k = {
 l = -31;
 };
 l = {
-k = 41;
+k = -9;
 o = 21;
 };
 m = {
